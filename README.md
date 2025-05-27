@@ -40,7 +40,7 @@ Foi desenvolvida uma aplicação simples, composta por dois programas:
 
   ## Resultado Final
 A aplicação com UDP funcionou corretamente:
-* O cliente enviou mensagens ao servidor;
+* O cliente envia mensagens ao servidor;
 *	O servidor respondeu adequadamente.
 
 Servidor:
