@@ -1,10 +1,10 @@
 # T1-Redes-de-Computadores
-# Comunicação Cliente-Servidor com sockets e Python
+# Comunicação Cliente-Servidor com sockets em Python
 
 ## Objetivo do Problema
 O objetivo do trabalho é desenvolver uma aplicação de comunicação entre cliente e servidor que funcione utilizando o protocolo UDP e analisar as modificações necessárias para que o mesmo sistema funcione utilizando o protocolo TCP. Essa atividade visa consolidar o entendimento prático dos dois principais protocolos da camada de transporte na arquitetura TCP/IP, explorando suas características, vantagens, desvantagens e aplicabilidades.
 
- ## Conceito
+  ## Conceito
 ### Protocolo UDP (User Datagram Protocol)
 O UDP é um protocolo de transporte não orientado à conexão, ou seja, não é necessário estabelecer uma conexão antes do envio de dados. 
 *	Mais leve e rápido.
@@ -38,9 +38,17 @@ Foi desenvolvida uma aplicação simples, composta por dois programas:
 
 ![Imagem do código de Cliente UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/image.png) 
 
-  
+  ## Resultado Final
+A aplicação com UDP funcionou corretamente:
+* O cliente enviou mensagens ao servidor;
+*	O servidor respondeu adequadamente.
+
+Servidor:
+
+Cliente:
 
 
 
 
-[Mais sobre UDP e TCP](xxxxx)
+
+[Mais informação sobre UDP e TCP](https://www.datacamp.com/pt/tutorial/a-complete-guide-to-socket-programming-in-python)
