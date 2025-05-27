@@ -24,6 +24,9 @@ Foi desenvolvida uma aplicação simples, composta por dois programas:
 *	Associação do socket a uma porta específica.
 *	Espera por mensagens de clientes utilizando recvfrom().
 *	Responde ao cliente com sendto().
+  
+![Imagem do código de Servidor UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/image.png)
+
 
 #### Cliente UDP:
 *	Criação de socket SOCK_DGRAM.
@@ -31,10 +34,11 @@ Foi desenvolvida uma aplicação simples, composta por dois programas:
 *	Recebe resposta com recvfrom().
 
 
-  
+ ![Imagem do código de Cliente UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/image.png) 
+
+ ![Imagem do código de Cliente UDP]() 
 
 
-![Imagem do código de Servidor UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/image.png)
-![Imagem do código de Cliente UDP]()
+
 
 [Mais sobre UDP e TCP](xxxxx)
