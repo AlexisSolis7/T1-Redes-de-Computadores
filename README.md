@@ -4,12 +4,36 @@
 ## Objetivo do Problema
 O objetivo do trabalho é desenvolver uma aplicação de comunicação entre cliente e servidor que funcione utilizando o protocolo UDP e analisar as modificações necessárias para que o mesmo sistema funcione utilizando o protocolo TCP. Essa atividade visa consolidar o entendimento prático dos dois principais protocolos da camada de transporte na arquitetura TCP/IP, explorando suas características, vantagens, desvantagens e aplicabilidades.
 
-## Conceito
+ ## Conceito
 ### Protocolo UDP (User Datagram Protocol)
 O UDP é um protocolo de transporte não orientado à conexão, ou seja, não é necessário estabelecer uma conexão antes do envio de dados. 
+*	Mais leve e rápido.
+*	Não confiável, pois não garante a entrega, nem a ordem dos pacotes.
+
 
 ### Protocolo TCP (Transmission Control Protocol)
 O TCP é um protocolo orientado à conexão, ou seja, requer que cliente e servidor estabeleçam uma conexão antes da troca de dados. 
+*	Confiável, pois garante a entrega dos dados na ordem correta.
+*	Mais robusto, com mecanismos de controle de fluxo, verificação de erros e retransmissão de pacotes perdidos.
 
-![Código de Servidor UDP]()
+  ## Solução
+### Implementação com UDP
+Foi desenvolvida uma aplicação simples, composta por dois programas:
+#### Servidor UDP:
+*	Criação de socket com tipo SOCK_DGRAM.
+*	Associação do socket a uma porta específica.
+*	Espera por mensagens de clientes utilizando recvfrom().
+*	Responde ao cliente com sendto().
+
+#### Cliente UDP:
+*	Criação de socket SOCK_DGRAM.
+*	Envia mensagem ao servidor usando sendto().
+*	Recebe resposta com recvfrom().
+
+
+  
+
+
+![Imagem do código de Servidor UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/image.png)
+
 [Mais sobre UDP e TCP](xxxxx)
