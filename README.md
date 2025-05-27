@@ -7,14 +7,16 @@ O objetivo do trabalho é desenvolver uma aplicação de comunicação entre cli
   ## Conceito
 ### Protocolo UDP (User Datagram Protocol)
 O UDP é um protocolo de transporte não orientado à conexão, ou seja, não é necessário estabelecer uma conexão antes do envio de dados. 
-*	Mais leve e rápido.
-*	Não confiável, pois não garante a entrega, nem a ordem dos pacotes.
+>	Mais leve e rápido.
+
+>	Não confiável, pois não garante a entrega, nem a ordem dos pacotes.
 
 
 ### Protocolo TCP (Transmission Control Protocol)
 O TCP é um protocolo orientado à conexão, ou seja, requer que cliente e servidor estabeleçam uma conexão antes da troca de dados. 
-*	Confiável, pois garante a entrega dos dados na ordem correta.
-*	Mais robusto, com mecanismos de controle de fluxo, verificação de erros e retransmissão de pacotes perdidos.
+>	Confiável, pois garante a entrega dos dados na ordem correta.
+
+>	Mais robusto, com mecanismos de controle de fluxo, verificação de erros e retransmissão de pacotes perdidos.
 
   ## Solução
 ### Implementação com UDP
@@ -43,9 +45,9 @@ A aplicação com UDP funcionou corretamente:
 * O cliente envia mensagens ao servidor;
 *	O servidor respondeu adequadamente.
 
-Servidor:
+> Servidor:
 
-Cliente:
+> Cliente:
 
 
 
