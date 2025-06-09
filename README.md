@@ -47,6 +47,8 @@ A aplicação com UDP funcionou corretamente:
 
 > Servidor:
 
+![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/image.png)
+
 > Cliente:
 
 
