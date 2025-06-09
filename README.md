@@ -74,7 +74,7 @@ Para adaptar a mesma lógica para TCP, as seguintes alterações são necessári
 ## Resultado final
 ![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-06-09%20094341.png)
 
-![Resultado do servidor]()
+![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-06-09%20100128.png)
 
 
 
