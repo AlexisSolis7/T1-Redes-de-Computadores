@@ -47,11 +47,11 @@ A aplicação com UDP funcionou corretamente:
 
 > Servidor:
 
-![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/image.png)
+![Resultado do servidor]()
 
 > Cliente:
 
-![Resultado do servidor]()
+![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-06-09%20092831.png)
 
 
 
