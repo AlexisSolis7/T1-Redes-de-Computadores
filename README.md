@@ -51,7 +51,7 @@ A aplicação com UDP funcionou corretamente:
 
 > Cliente:
 
-![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-06-09%20092831.png)
+![Resultado do Cliente](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-06-09%20092831.png)
 
 
 ### Adaptação para TCP
@@ -70,6 +70,9 @@ Para adaptar a mesma lógica para TCP, as seguintes alterações são necessári
 >	Utilizar connect() para estabelecer a conexão com o servidor.
 >
 >	Também usar send() e recv() para a comunicação.
+
+## Resultado final
+![Resultado do servidor]()
 
 
 
