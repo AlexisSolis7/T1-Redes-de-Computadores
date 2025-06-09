@@ -8,14 +8,14 @@ O objetivo do trabalho é desenvolver uma aplicação de comunicação entre cli
 ### Protocolo UDP (User Datagram Protocol)
 O UDP é um protocolo de transporte não orientado à conexão, ou seja, não é necessário estabelecer uma conexão antes do envio de dados. 
 >	Mais leve e rápido.
-
+>
 >	Não confiável, pois não garante a entrega, nem a ordem dos pacotes.
 
 
 ### Protocolo TCP (Transmission Control Protocol)
 O TCP é um protocolo orientado à conexão, ou seja, requer que cliente e servidor estabeleçam uma conexão antes da troca de dados. 
 >	Confiável, pois garante a entrega dos dados na ordem correta.
-
+>
 >	Mais robusto, com mecanismos de controle de fluxo, verificação de erros e retransmissão de pacotes perdidos.
 
   ## Solução
@@ -72,8 +72,9 @@ Para adaptar a mesma lógica para TCP, as seguintes alterações são necessári
 >	Também usar send() e recv() para a comunicação.
 
 ## Resultado final
-![Resultado do servidor]()
+![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-06-09%20094341.png)
 
+![Resultado do servidor]()
 
 
 
