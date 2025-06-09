@@ -54,6 +54,25 @@ A aplicação com UDP funcionou corretamente:
 ![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-06-09%20092831.png)
 
 
+### Adaptação para TCP
+Para adaptar a mesma lógica para TCP, as seguintes alterações são necessárias:
+
+> Substituir SOCK_DGRAM por SOCK_STREAM.
+
+#### No servidor:
+>	Utilizar listen() para aguardar conexões.
+>
+>	Utilizar accept() para aceitar uma conexão de um cliente.
+>
+>	Enviar e receber dados usando send() e recv().
+>
+#### No cliente:
+>	Utilizar connect() para estabelecer a conexão com o servidor.
+>
+>	Também usar send() e recv() para a comunicação.
+
+
+
 
 
 [Mais informação sobre UDP e TCP](https://www.datacamp.com/pt/tutorial/a-complete-guide-to-socket-programming-in-python)
