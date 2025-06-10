@@ -70,11 +70,17 @@ Para adaptar a mesma lógica para TCP, as seguintes alterações são necessári
 >	Utilizar accept() para aceitar uma conexão de um cliente.
 >
 >	Enviar e receber dados usando send() e recv().
->
+
+![Resultado do servidor]()
+
+
 ####  Na cliente:
 >	Utilizar connect() para estabelecer a conexão com o servidor.
 >
 >	Também usar send() e recv() para a comunicação.
+
+![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/ClienteTCP.jpg)
+
 
 ## Resultado final
 > Servidor
