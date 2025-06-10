@@ -83,4 +83,4 @@ Para adaptar a mesma lógica para TCP, as seguintes alterações são necessári
 
 
 
-[Mais informação sobre UDP e TCP](https://www.datacamp.com/pt/tutorial/a-complete-guide-to-socket-programming-in-python)
+[Mais informação sobre UDP e TCP](https://docs.python.org/3/library/socket.html)
