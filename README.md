@@ -27,13 +27,6 @@ O TCP é um protocolo orientado à conexão, ou seja, requer que cliente e servi
   ## Solução
 ### Implementação com UDP
 Foi desenvolvida uma aplicação simples, composta por dois programas:
-#### Servidor UDP:
-*	Criação de socket com tipo SOCK_DGRAM.
-*	Associação do socket a uma porta específica.
-*	Espera por mensagens de clientes utilizando recvfrom().
-*	Responde ao cliente com sendto().
-  
-![Imagem do código de Servidor UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/ServidorUDP.jpg)
 
 
 #### Cliente UDP:
@@ -44,25 +37,44 @@ Foi desenvolvida uma aplicação simples, composta por dois programas:
 ![Imagem do código de Cliente UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/ClienteUDP.jpg)
 
 
+#### Servidor UDP:
+*	Criação de socket com tipo SOCK_DGRAM.
+*	Associação do socket a uma porta específica.
+*	Espera por mensagens de clientes utilizando recvfrom().
+*	Responde ao cliente com sendto().
+  
+![Imagem do código de Servidor UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/ServidorUDP.jpg)
+
+
 
   ## Resultado Final
 A aplicação com UDP funcionou corretamente:
 * O cliente envia mensagens ao servidor;
 *	O servidor respondeu adequadamente.
 
+  > Cliente:
+
+![Resultado do Cliente](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-06-09%20092831.png)
+
+
 > Servidor:
 
 ![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-06-09%20093254.png)
 
-> Cliente:
-
-![Resultado do Cliente](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-06-09%20092831.png)
 
 
 ### Adaptação para TCP
 Para adaptar a mesma lógica para TCP, as seguintes alterações são necessárias:
 
 > Substituir SOCK_DGRAM por SOCK_STREAM.
+
+####  Na cliente:
+>	Utilizar connect() para estabelecer a conexão com o servidor.
+>
+>	Também usar send() e recv() para a comunicação.
+
+![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/ClienteTCP.jpg)
+
 
 ####  No servidor:
 >	Utilizar listen() para aguardar conexões.
@@ -71,15 +83,9 @@ Para adaptar a mesma lógica para TCP, as seguintes alterações são necessári
 >
 >	Enviar e receber dados usando send() e recv().
 
-![Resultado do servidor]()
+![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/ServidorTCP.jpg)
 
 
-####  Na cliente:
->	Utilizar connect() para estabelecer a conexão com o servidor.
->
->	Também usar send() e recv() para a comunicação.
-
-![Resultado do servidor](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/ClienteTCP.jpg)
 
 
 ## Resultado final
