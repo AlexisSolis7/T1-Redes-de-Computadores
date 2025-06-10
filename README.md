@@ -41,7 +41,7 @@ Foi desenvolvida uma aplicação simples, composta por dois programas:
 *	Envia mensagem ao servidor usando sendto().
 *	Recebe resposta com recvfrom().
 
-![Imagem do código de Cliente UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-05-27%20192942.png)
+![Imagem do código de Cliente UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/ClienteUDP.png)
 
 
 ![Imagem do código de Cliente UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-05-27%20193403.png) 
