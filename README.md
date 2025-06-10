@@ -59,14 +59,14 @@ Para adaptar a mesma lógica para TCP, as seguintes alterações são necessári
 
 > Substituir SOCK_DGRAM por SOCK_STREAM.
 
-#### No servidor:
+####  No servidor:
 >	Utilizar listen() para aguardar conexões.
 >
 >	Utilizar accept() para aceitar uma conexão de um cliente.
 >
 >	Enviar e receber dados usando send() e recv().
 >
-#### No cliente:
+####  Na cliente:
 >	Utilizar connect() para estabelecer a conexão com o servidor.
 >
 >	Também usar send() e recv() para a comunicação.
