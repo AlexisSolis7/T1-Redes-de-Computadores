@@ -5,6 +5,12 @@
 O objetivo do trabalho é desenvolver uma aplicação de comunicação entre cliente e servidor que funcione utilizando o protocolo UDP e analisar as modificações necessárias para que o mesmo sistema funcione utilizando o protocolo TCP. Essa atividade visa consolidar o entendimento prático dos dois principais protocolos da camada de transporte na arquitetura TCP/IP, explorando suas características, vantagens, desvantagens e aplicabilidades.
 
   ## Conceito
+  ### O que é um Socket?
+Um socket é uma interface de programação (API) que permite a comunicação entre processos, geralmente entre um cliente e um servidor. Ele funciona como um canal de comunicação bidirecional, onde dados podem ser enviados e recebidos.
+
+![Imagem do código de Servidor UDP]()
+
+
 ### Protocolo UDP (User Datagram Protocol)
 O UDP é um protocolo de transporte não orientado à conexão, ou seja, não é necessário estabelecer uma conexão antes do envio de dados. 
 >	Mais leve e rápido.
