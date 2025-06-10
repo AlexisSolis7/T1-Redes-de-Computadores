@@ -6,9 +6,9 @@ O objetivo do trabalho é desenvolver uma aplicação de comunicação entre cli
 
   ## Conceito
   ### O que é um Socket?
-Um socket é uma interface de programação (API) que permite a comunicação entre processos, geralmente entre um cliente e um servidor. Ele funciona como um canal de comunicação bidirecional, onde dados podem ser enviados e recebidos.
+Um socket é uma interface de programação (API) que **permite a comunicação entre processos**, geralmente entre um cliente e um servidor. Ele funciona como um canal de comunicação bidirecional, onde dados podem ser enviados e recebidos.
 
-![Imagem do código de Servidor UDP]()
+![Imagem do código de Servidor UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/redes-aula06-figura3.1.png)
 
 
 ### Protocolo UDP (User Datagram Protocol)
