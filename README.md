@@ -33,7 +33,7 @@ Foi desenvolvida uma aplicação simples, composta por dois programas:
 *	Espera por mensagens de clientes utilizando recvfrom().
 *	Responde ao cliente com sendto().
   
-![Imagem do código de Servidor UDP]()
+![Imagem do código de Servidor UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/ServidorUDP.jpg)
 
 
 #### Cliente UDP:
@@ -44,7 +44,6 @@ Foi desenvolvida uma aplicação simples, composta por dois programas:
 ![Imagem do código de Cliente UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/ClienteUDP.jpg)
 
 
-![Imagem do código de Cliente UDP](https://github.com/AlexisSolis7/T1-Redes-de-Computadores/blob/main/Captura%20de%20tela%202025-05-27%20193403.png) 
 
   ## Resultado Final
 A aplicação com UDP funcionou corretamente:
